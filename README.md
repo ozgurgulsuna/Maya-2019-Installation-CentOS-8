@@ -1,4 +1,4 @@
-# Maya 2020 Installation on Manjaro KDE
+# Maya 2020 Installation on Manjaro KDE (ArchLinux)
 
 ## Overview
 The default installation instructions for Maya 2020 on a fresh install of manjaro kde.
