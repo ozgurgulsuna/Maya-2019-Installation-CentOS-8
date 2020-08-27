@@ -9,7 +9,7 @@ The default installation instructions for Maya 2020 on a fresh install of manjar
 Although the installation docs note that installations are hardware-specific, the instructions are generally unclear.
 This document shows the steps I took to install Maya, as well as my recommendations for making the installation process less difficult.
 
-To install and troubleshoot Maya, I followed three [Autodesk Knowledge Network](https://knowledge.autodesk.com/) documents:
+To install and troubleshoot Maya, I followed four documents:
 - [Install Maya on Linux using the installation wizard](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
 - [Install Maya on Linux using the RPM utility](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-10FE31A8-7092-45BE-9E53-44D0D096E431-htm.html)
 - [Additional Linux notes](https://knowledge.autodesk.com/support/maya/troubleshooting/caas/CloudHelp/cloudhelp/2019/ENU/Installation-Maya/files/GUID-D2B5433C-E0D2-421B-9BD8-24FED217FD7F-htm.html)
@@ -22,8 +22,7 @@ To install and troubleshoot Maya, I followed three [Autodesk Knowledge Network](
 3. let's see what we have here, we have Setup executable -> execute it using 
    `./Setup`
 4. An error as expected, 
-   ```./Setup: error while loading shared libraries: libpng15.so.15: cannot open shared object file: No such file or directory
-   ```
+   ```./Setup: error while loading shared libraries: libpng15.so.15: cannot open shared object file: No such file or directory```
 5. checking pacman for libpng15, no clues...    
 6. found it on aur package but gave an error while building.
 7. found a little help here [Install libpng15-so-15](https://ubuntuforums.org/showthread.php?t=2138623)
