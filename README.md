@@ -22,7 +22,9 @@ To install and troubleshoot Maya, I followed four documents:
 3. let's see what we have here, we have Setup executable -> execute it using 
    `./Setup`
 4. An error as expected, 
-   ```./Setup: error while loading shared libraries: libpng15.so.15: cannot open shared object file: No such file or directory```
+   ```Bash
+   ./Setup: error while loading shared libraries: libpng15.so.15: cannot open shared object file: No such file or directory
+   ```
 5. checking pacman for libpng15, no clues...    
 6. found it on aur package but gave an error while building.
 7. found a little help here [Install libpng15-so-15](https://ubuntuforums.org/showthread.php?t=2138623)
