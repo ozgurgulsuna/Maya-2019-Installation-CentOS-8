@@ -44,6 +44,36 @@ sudo pacman -Syy libjpeg lib32-libjpeg libjpeg6 openssl-1.0 openssl audiofile xo
 17. now we can get FPM (Freaking Package Manager), `gem install --no-document fpm`
 18. we can check if ruby has installed correctly using `alias fpm="/home/ozgur/.gem/ruby/2.7.0/gems/fpm-1.11.0/bin/fpm"` be careful about the version number and use your home folder `/home/YOURUSERNAME`
 19.Check
+#### Desktop icon
+Here is the guide to create a desktop icon
+1. create a document named `Autodesk Maya 2020.desktop` on desktop
+2. edit it using text editor i.e vim or kate
+3. set parameters
+```
+[Desktop Entry]
+Categories=3D modeling
+Comment[en_US]=Maya desktop shortcut
+Comment=Maya desktop shortcut
+Encoding=UTF-8
+Exec=/usr/autodesk/maya2020/bin/maya2020
+GenericName[en_US]=
+GenericName=
+Icon=/usr/share/icons/maya2020.png
+MimeType=
+Name[en_US]=Autodesk Maya 2020
+Name=Autodesk Maya 2020
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+```
+here I downloaded the icon to the icons folder.
+4. That's All Folks !
 
 
 ## Summary of Findings
