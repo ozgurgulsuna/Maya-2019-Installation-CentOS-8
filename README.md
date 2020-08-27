@@ -32,7 +32,9 @@ To install and troubleshoot Maya, I followed four documents:
 9. Now we can run ./Setup but it responds with an error saying that my OS is not supported.
 10.This meant that we have to install  it ourselves, not using installer.
 11. First we need to install required dependencies.
-```sudo pacman -Syy libjpeg lib32-libjpeg libjpeg6 openssl-1.0 openssl audiofile xorg-fonts-misc libxp python2 python2-backports ld-lsb lsb-release cpio xorg-fonts-100dpi xorg-fonts-75dpi xorg-fonts gsfonts adobe-source-code-pro-fonts xorg-xlsfonts xorg-fonts-type1 libtiff```
+```
+sudo pacman -Syy libjpeg lib32-libjpeg libjpeg6 openssl-1.0 openssl audiofile xorg-fonts-misc libxp python2 python2-backports ld-lsb lsb-release cpio xorg-fonts-100dpi xorg-fonts-75dpi xorg-fonts gsfonts adobe-source-code-pro-fonts xorg-xlsfonts xorg-fonts-type1 libtiff
+```
 12. for any errors you can get those faulty dependencies from another location or from another package manager, ie. pamac, yum, or build yourself using AUR.(you will need libpng15, it's accesable from AUR)
 13. For little aur rundown, -> download snapshot ->extract -> `makepkg -i`
 14. Now we have all our dependencies, cool let us direct back to untarred maya folder.
